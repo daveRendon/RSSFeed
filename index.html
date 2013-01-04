@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width" />
+
+		<title>Dave Rndn Blog</title>
+
+		<script src="https://www.google.com/jsapi?key=ABQIAAAA_2iFsKsvxyuwFuP3K4bE1BTvywH2vhaTXkd89Tz_KidvPkZEwxSec8KthtOtV8NVD2fSqG7ZcT99fA"></script>
+
+		<!--<link rel="stylesheet" type="text/css" href="resources/css/html5reset.min.css">-->
+		<link rel="stylesheet" href="css/grid.min.css" />
+		<link rel="stylesheet" href="css/media-queries.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="twelve columns">
+						<h1 class="logo">RSS Dave Rndn Blog</h1>
+						<button type="button" id="btn_more" class="btn_more button">Mostrar mas</button>
+						<img src="images/loader.gif" alt="loading ..." class="hide btn_more" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="container">
+				<div class="row hide" id="feed_detail_container">
+					<div class="two columns">
+						<nav>
+							<ul>
+								<li>
+									<button type="button" id="btn_back" class="nav_button">
+										<span></span>
+										Regresar
+									</button>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="ten columns">
+						<div class="feed_detail">
+							<div id="feed_detail"></div>
+						</div>
+					</div>
+				</div>
+				<div id="feed_container" class="row feedmain">
+					<div class="three columns"></div>
+					<div class="three columns"></div>
+					<div class="three columns"></div>
+					<div class="three columns"></div>
+				</div>
+				<div class="row feedmain">
+					<div class="twelve columns center"></div>
+				</div>
+			</div>
+		</section>
+		
+		
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/3rdparty/modernizr.custom.83297.js"></script>
+		<script src="js/loadfeed.js"></script>
+	</body>
+</html>
